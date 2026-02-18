@@ -13,8 +13,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <!-- -----------font awesome------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        *{
+             font-family: "Outfit", sans-serif;
+        }
+    </style>
 </head>
-<body>
-    
+<body class="min-h-screen max-w-md bg-base-200 mx-auto">
+    <div class="logo w-[200px] mx-auto pt-[210px]">
+        <img src="assets/Logo-full.png" alt="" >
+    </div>
+    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow mx-auto mt-[40px] rounded-2xl">
+      <div class="card-body">
+        <fieldset class="fieldset">
+          <label class="label text-neutral font-bold">Mobile Number</label>
+          <input type="email" class="input bg-base-200 rounded-full outline-none" placeholder="Enter your number"  />
+          <br>
+          <label class="label text-neutral font-bold ">4 Digit Pin</label>
+          <input type="password" class="input input bg-base-200 rounded-full outline-none" placeholder="Enter 4 Digit Pin" />
+          
+          <button class="btn btn-primary rounded-full mt-4">Login</button>
+        </fieldset>
+      </div>
+    </div>
 </body>
 </html>
