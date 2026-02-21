@@ -12,5 +12,6 @@ document.getElementById('login-btn')
             window.location.assign("/home.html");
         }else{
             alert("Login failed!");
+            return;
         }
     })
